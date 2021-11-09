@@ -4,7 +4,7 @@ import Students from './components/students/students'
 
 function App() {
   return (
-    <div>
+    <div class="container">
       <Students></Students>
     </div>
   );
