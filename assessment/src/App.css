@@ -17,6 +17,7 @@ body {
   overflow: auto;
   border-radius: 10px;
   padding: 5px;
+  box-shadow: 3px 3px 3px #c9c9c9;
 }
 
 /* Students */
