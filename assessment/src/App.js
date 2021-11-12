@@ -1,11 +1,23 @@
 import React from 'react';
 import './App.css';
-import Students from './components/students/students'
+import Students from './components/Students';
+
+
+
+
 
 function App() {
+
+
+
+
   return (
-    <div class="container">
-      <Students></Students>
+    <div className="container">
+
+      <Students />
+      {/* {students.map(student => {
+        return <Student />
+      })} */}
     </div>
   );
 }
