@@ -73,6 +73,18 @@ hr {
   border-bottom: 2px solid #e5e4e2;
 }
 
+/* Toggle Grades */
+.togglegrades {
+  float: right;
+  position: relative;
+  top: -175px;
+}
+
+.togglegrades button {
+  background: none;
+  border: none;
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 15px;
