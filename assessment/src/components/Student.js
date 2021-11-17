@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlus, faMinus } from '@fortawesome/free-solid-svg-icons'
+import Tags from './Tags';
 
 const Student = (props) => {
 
@@ -9,7 +10,6 @@ const Student = (props) => {
     const handleHide = () => setIsHidden(!isHidden)
 
     const [showText, setShowText] = useState(false);
-
 
     return (
         <div className="students">
@@ -41,7 +41,10 @@ const Student = (props) => {
                     <p>Test 6: {props.grades[5]}%</p>
                     <p>Test 7: {props.grades[6]}%</p>
                     <p>Test 8: {props.grades[7]}%</p>
+                    <br></br>
                 </div>}
+                <br></br>
+                <Tags></Tags>
             </div>
             <hr></hr>
         </div>

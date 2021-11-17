@@ -85,6 +85,35 @@ hr {
   border: none;
 }
 
+/* Tags */
+
+.tag {
+  background-color: #e5e4e2;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.tagcontainer {
+  display: flex;
+}
+
+.taginput li {
+  list-style-type: none;
+}
+
+.taginput ul {
+  padding: 0;
+}
+
+.taginput input {
+  font-family: Raleway;
+  border: 0;
+  border-bottom: 2px solid #e5e4e2;
+  padding: 20px;
+  font-size: 1em;
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 15px;

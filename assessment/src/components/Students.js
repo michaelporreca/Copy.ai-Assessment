@@ -60,7 +60,6 @@ const Students = () => {
                     skill={student.skill}
                     grades={student.grades}
                 />
-
             })}
         </div>
     )
